@@ -1,0 +1,35 @@
+$background: hsl(0, 0%, 21%);
+$text: hsl(0, 0%, 96%);
+$text-light: hsl(0, 0%, 86%);
+
+@use './components/header';
+@import '../../node_modules/bulma/bulma.sass';
+
+:root {
+    --background: #{$background};
+    --dark: #{$grey-dark};
+    --light: #{$text};
+}
+
+html { overflow: hidden; }
+
+body {
+    background-color: $background;
+    color: $white-ter;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+#root {
+    min-height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.container {
+    min-height: calc(100vh - 52px);
+    padding: 1rem;
+}
+
+.modal-card-title { color: $text; }
