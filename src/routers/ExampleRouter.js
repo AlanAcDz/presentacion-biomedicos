@@ -6,14 +6,12 @@ import ExamplePrototype from '../components/pages/example/ExamplePrototype';
 const ExampleRouter = () => {
     const { path } = useRouteMatch();
     return (
-        <div>
-            <Switch>
-                <Route path={`${path}/breakdown`} component={ ExampleBreakdown } />
-                <Route path={`${path}/prototype`} component={ ExamplePrototype } />
-                <Route path={`${path}/product`} component={ ExampleProduct } />
-                <Redirect to={`${path}/breakdown`} />
-            </Switch>
-        </div>
+        <Switch>
+            <Route path={`${path}/breakdown`} component={ ExampleBreakdown } />
+            <Route path={`${path}/prototype`} component={ ExamplePrototype } />
+            <Route path={`${path}/product`} component={ ExampleProduct } />
+            <Redirect to={`${path}/breakdown`} />
+        </Switch>
     )
 }
 

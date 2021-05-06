@@ -1,9 +1,13 @@
+import FooterNav from '../../layout/FooterNav';
 
 const ExampleProduct = () => {
     return (
-        <div>
-            <h1>example product</h1>
-        </div>
+        <>
+            <section className="section">
+                <h2 className="title has-text-centered">MitHealth</h2>
+            </section>
+            <FooterNav previous="/example/prototype" next="/technologies" />
+        </>
     )
 }
 

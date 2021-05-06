@@ -1,9 +1,13 @@
+import FooterNav from '../../layout/FooterNav';
 
 const TechnologiesCloud = () => {
     return (
-        <div>
-            <h1>technologies cloud</h1>
-        </div>
+        <>
+            <section className="section">
+                <h2 className="title has-text-centered">Google Cloud</h2>
+            </section>
+            <FooterNav previous="/technologies/database" next="/technologies/web" />
+        </>
     )
 }
 

@@ -1,6 +1,8 @@
 $background: hsl(0, 0%, 21%);
 $text: hsl(0, 0%, 96%);
 $text-light: hsl(0, 0%, 86%);
+$text-strong: hsl(0, 0%, 91%);
+$footer-background-color: $background;
 
 @use './components/header';
 @import '../../node_modules/bulma/bulma.sass';
@@ -28,8 +30,11 @@ body {
 }
 
 .container {
-    min-height: calc(100vh - 52px);
-    padding: 1rem;
+    // min-height: calc(100vh - 52px);
 }
 
 .modal-card-title { color: $text; }
+
+.footer .buttons { justify-content: space-between; }
+
+.next-btn { margin-left: auto; }

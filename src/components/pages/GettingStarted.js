@@ -1,9 +1,13 @@
+import FooterNav from '../layout/FooterNav';
 
 const GettingStarted = () => {
     return (
-        <div>
-            <h1>getting started</h1>
-        </div>
+        <>
+            <section className="section">
+                <h2 className="title has-text-centered">¿Cómo empiezo?</h2>
+            </section>
+            <FooterNav previous="/advantages" />
+        </>
     )
 }
 
