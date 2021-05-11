@@ -4,9 +4,10 @@ const TechnologiesChallenge = () => {
     return (
         <>
             <section className="section">
-                <h2 className="title has-text-centered">Reto: Cumplir con la normativa en temas de seguridad</h2>
+                <h1 className="title has-text-centered">Tecnologías usadas</h1>
+                <h2 className="subtitle has-text-centered">Retos creando la plataforma</h2>
             </section>
-            <FooterNav previous="/technologies" next="/technologies/database" />
+            <FooterNav previous="/example/product" next="/technologies/database" />
         </>
     )
 }

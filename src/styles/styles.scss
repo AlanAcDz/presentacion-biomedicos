@@ -3,8 +3,10 @@ $text: hsl(0, 0%, 96%);
 $text-light: hsl(0, 0%, 86%);
 $text-strong: hsl(0, 0%, 91%);
 $footer-background-color: $background;
+$card-background-color: hsl(0, 0%, 29%);
 
 @use './components/header';
+@use './components/cards';
 @import '../../node_modules/bulma/bulma.sass';
 
 :root {
@@ -12,8 +14,6 @@ $footer-background-color: $background;
     --dark: #{$grey-dark};
     --light: #{$text};
 }
-
-html { overflow: hidden; }
 
 body {
     background-color: $background;
@@ -29,12 +29,22 @@ body {
     overflow-y: auto;
 }
 
-.container {
-    // min-height: calc(100vh - 52px);
-}
-
 .modal-card-title { color: $text; }
 
 .footer .buttons { justify-content: space-between; }
 
 .next-btn { margin-left: auto; }
+
+.column .card { flex: 1; }
+
+.image img { object-fit: cover; }
+
+.logo-column {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .image {
+        width: 200px;
+        height: 200px;
+    }
+}

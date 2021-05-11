@@ -14,15 +14,13 @@ const Menu = ({ setShowMenu }) => {
                     <li><NavLink to="/example/breakdown" activeClassName="is-active">¿En que consiste?</NavLink></li>
                     <li><NavLink to="/example/prototype" activeClassName="is-active">Prototipo</NavLink></li>
                     <li><NavLink to="/example/product" activeClassName="is-active">MitHealth</NavLink></li>
-                    <li>
-                        <NavLink to="/technologies" exact activeClassName="is-active">Tecnologías usadas</NavLink>
-                        <ul>
-                            <li><NavLink to="/technologies/challenge" activeClassName="is-active">Reto: cumplir con la normativa en temas de seguridad</NavLink></li>
-                            <li><NavLink to="/technologies/database" activeClassName="is-active">Base de datos</NavLink></li>
-                            <li><NavLink to="/technologies/cloud" activeClassName="is-active">Google Cloud</NavLink></li>
-                            <li><NavLink to="/technologies/web" activeClassName="is-active">Tecnologías web</NavLink></li>
-                        </ul>
-                    </li>
+                </ul>
+                <p className="menu-label">Tecnologías usadas</p>
+                <ul className="menu-list">
+                    <li><NavLink to="/technologies/challenge" activeClassName="is-active">Retos creando la plataforma</NavLink></li>
+                    <li><NavLink to="/technologies/database" activeClassName="is-active">Base de datos</NavLink></li>
+                    <li><NavLink to="/technologies/cloud" activeClassName="is-active">Cloud</NavLink></li>
+                    <li><NavLink to="/technologies/web" activeClassName="is-active">Tecnologías web</NavLink></li>
                 </ul>
                 <p className="menu-label">Sobre el desarrollo de software</p>
                 <ul className="menu-list">

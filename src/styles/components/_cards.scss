@@ -1,0 +1,27 @@
+.card {
+    position: relative;
+    .card-content {
+        background: rgb(0,0,0);
+        background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.8) 75%);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+
+.masonry-columns {
+    .card:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+    @media only screen and (min-width: 650px) {
+        column-count: 2;
+        gap: 1rem;
+    }
+    @media only screen and (min-width: 950px) {
+        column-count: 3;
+    }
+    @media only screen and (min-width: 1200px) {
+        column-count: 4;
+    }
+}
