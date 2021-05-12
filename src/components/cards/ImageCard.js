@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import ImageModal from './ImageModal';
+import ImageModal from '../modals/ImageModal';
 
 const ImageCard = ({ name, folder }) => {
     const [showModal, setShowModal] = useState(false);

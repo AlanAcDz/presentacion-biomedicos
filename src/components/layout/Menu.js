@@ -19,7 +19,6 @@ const Menu = ({ setShowMenu }) => {
                 <ul className="menu-list">
                     <li><NavLink to="/technologies/challenge" activeClassName="is-active">Retos creando la plataforma</NavLink></li>
                     <li><NavLink to="/technologies/database" activeClassName="is-active">Base de datos</NavLink></li>
-                    <li><NavLink to="/technologies/cloud" activeClassName="is-active">Cloud</NavLink></li>
                     <li><NavLink to="/technologies/web" activeClassName="is-active">Tecnologías web</NavLink></li>
                 </ul>
                 <p className="menu-label">Sobre el desarrollo de software</p>

@@ -1,5 +1,5 @@
 import FooterNav from '../../layout/FooterNav';
-import ImageCard from '../../layout/ImageCard';
+import ImageCard from '../../cards/ImageCard';
 
 const ExampleProduct = () => {
     const images = Array(11).fill(0);

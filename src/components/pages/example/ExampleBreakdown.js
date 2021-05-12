@@ -1,3 +1,4 @@
+import ColumnCard from '../../cards/ColumnCard';
 import FooterNav from '../../layout/FooterNav';
 
 const ExampleBreakdown = () => {
@@ -25,42 +26,12 @@ const ExampleBreakdown = () => {
                     </div>
                 </div>
                 <div className="columns">
-                    <div className="column is-flex">
-                        <div className="card">
-                            <div className="card-image">
-                                <figure className="image is-4by3">
-                                    <img src="https://images.unsplash.com/photo-1586772002345-339f8042a777?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=80" alt="Aplicación de servidor" />
-                                </figure>
-                            </div>
-                            <div className="card-content">
-                                <h4 className="title">Aplicación de servidor</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="column is-flex">
-                        <div className="card">
-                            <div className="card-image">
-                                <figure className="image is-4by3">
-                                    <img src="/assets/images/mithealth/mithealth (8).png" alt="Aplicación web" />
-                                </figure>
-                            </div>
-                            <div className="card-content">
-                                <h4 className="title">Aplicación web</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="column is-flex">
-                        <div className="card">
-                            <div className="card-image">
-                                <figure className="image is-4by3">
-                                    <img src="/assets/images/mithealth/mithealth (11).png" alt="Aplicación móvil" />
-                                </figure>
-                            </div>
-                            <div className="card-content">
-                                <h4 className="title">Aplicación móvil</h4>
-                            </div>
-                        </div>
-                    </div>
+                    <ColumnCard title="Aplicación de servidor"
+                        image="https://images.unsplash.com/photo-1586772002345-339f8042a777?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=80" />
+                    <ColumnCard title="Aplicación web"
+                        image="/assets/images/mithealth/mithealth (8).png" />
+                    <ColumnCard title="Aplicación móvil"
+                        image="/assets/images/mithealth/mithealth (11).png" />
                 </div>
             </section>
             <FooterNav previous="/" next="/example/prototype" />

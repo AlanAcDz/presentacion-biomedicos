@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Menu from './Menu';
-import QrModal from './QrModal';
+import QrModal from '../modals/QrModal';
 
 const Header = () => {
     const [showMenu, setShowMenu] = useState(false);

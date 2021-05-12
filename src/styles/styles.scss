@@ -15,6 +15,8 @@ $card-background-color: hsl(0, 0%, 29%);
     --light: #{$text};
 }
 
+html { overflow-y: auto; }
+
 body {
     background-color: $background;
     color: $white-ter;
@@ -46,5 +48,22 @@ body {
     .image {
         width: 200px;
         height: 200px;
+    }
+}
+
+.logos {
+    @extend .logo-column;
+    align-items: flex-end;
+    .image {
+        height: 100px;
+        width: 100px;
+        &:last-child {
+            transform: scale(0.85);
+            margin-bottom: 4px;
+        }
+    }
+    .middle-logo {
+        height: 200px;
+        width: 200px;
     }
 }
