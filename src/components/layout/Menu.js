@@ -24,7 +24,6 @@ const Menu = ({ setShowMenu }) => {
                 <p className="menu-label">Sobre el desarrollo de software</p>
                 <ul className="menu-list">
                     <li><NavLink to="/advantages" activeClassName="is-active">Ventajas</NavLink></li>
-                    <li><NavLink to="/getting-started" activeClassName="is-active">¿Cómo empiezo?</NavLink></li>
                 </ul>
             </aside>
         </div>
