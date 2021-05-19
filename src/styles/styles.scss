@@ -67,3 +67,12 @@ body {
         width: 200px;
     }
 }
+
+.link {
+    color: white;
+    opacity: 0.8;
+    &:hover {
+        color: white;
+        opacity: 1;
+    }
+}
