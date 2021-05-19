@@ -21,7 +21,7 @@ const ExampleBreakdown = () => {
                     </div>
                     <div className="column logo-column">
                         <figure className="image">
-                            <img src="/assets/images/mithealth/logo.png" alt="MitHealth" />
+                            <img src="./assets/images/mithealth/logo.png" alt="MitHealth" />
                         </figure>
                     </div>
                 </div>
