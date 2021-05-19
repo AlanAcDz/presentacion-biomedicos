@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/presentacion-biomedicos/static/css/main.b86de8f3.chunk.css",
-    "main.js": "/presentacion-biomedicos/static/js/main.0552a614.chunk.js",
-    "main.js.map": "/presentacion-biomedicos/static/js/main.0552a614.chunk.js.map",
+    "main.js": "/presentacion-biomedicos/static/js/main.1219f4c2.chunk.js",
+    "main.js.map": "/presentacion-biomedicos/static/js/main.1219f4c2.chunk.js.map",
     "runtime-main.js": "/presentacion-biomedicos/static/js/runtime-main.831a9421.js",
     "runtime-main.js.map": "/presentacion-biomedicos/static/js/runtime-main.831a9421.js.map",
-    "static/js/2.2cf52e65.chunk.js": "/presentacion-biomedicos/static/js/2.2cf52e65.chunk.js",
-    "static/js/2.2cf52e65.chunk.js.map": "/presentacion-biomedicos/static/js/2.2cf52e65.chunk.js.map",
+    "static/js/2.c5321e05.chunk.js": "/presentacion-biomedicos/static/js/2.c5321e05.chunk.js",
+    "static/js/2.c5321e05.chunk.js.map": "/presentacion-biomedicos/static/js/2.c5321e05.chunk.js.map",
     "index.html": "/presentacion-biomedicos/index.html",
     "static/css/main.b86de8f3.chunk.css.map": "/presentacion-biomedicos/static/css/main.b86de8f3.chunk.css.map",
-    "static/js/2.2cf52e65.chunk.js.LICENSE.txt": "/presentacion-biomedicos/static/js/2.2cf52e65.chunk.js.LICENSE.txt"
+    "static/js/2.c5321e05.chunk.js.LICENSE.txt": "/presentacion-biomedicos/static/js/2.c5321e05.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.831a9421.js",
-    "static/js/2.2cf52e65.chunk.js",
+    "static/js/2.c5321e05.chunk.js",
     "static/css/main.b86de8f3.chunk.css",
-    "static/js/main.0552a614.chunk.js"
+    "static/js/main.1219f4c2.chunk.js"
   ]
 }
