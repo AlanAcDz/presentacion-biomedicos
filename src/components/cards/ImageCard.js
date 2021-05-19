@@ -9,7 +9,7 @@ const ImageCard = ({ name, folder }) => {
             <div className="card is-clickable" onClick={ openModal }>
                 <div className="card-image">
                     <figure className="image">
-                        <img src={`/assets/images/${folder}/${name}`} alt={ name } />
+                        <img src={`./assets/images/${folder}/${name}`} alt={ name } />
                     </figure>
                 </div>
             </div>

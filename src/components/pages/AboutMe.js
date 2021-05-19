@@ -18,7 +18,7 @@ const AboutMe = () => {
                     </div>
                     <div className="column">
                         <figure className="image">
-                            <img src="assets/images/about-me.jpg" alt="" />
+                            <img src="./assets/images/about-me.jpg" alt="" />
                         </figure>
                     </div>
                 </div>
