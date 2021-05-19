@@ -82,6 +82,12 @@ body {
     }
 }
 
+.qrcode {
+    height: 256px;
+    width: 256px;
+    margin: 0 auto;
+}
+
 // Animations
 .animated {
     animation-duration: 1000ms;
